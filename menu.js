@@ -70,23 +70,23 @@ function addDynamicContent(url1, url2, url3) {
 
     const img = document.createElement('img');
     if (url2 === 'https://pola.rtp-tvonepkr.shop') {
-        img.src = 'https://pokhok.biz/assets/images/TVONE.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/TVONE.gif';
     } else if (url2 === 'https://es.rtp-sctvpkr.cam/') {
-        img.src = 'https://pokhok.biz/assets/images/SCTV.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SCTV.gif';
     }else if (url2 === 'https://id.rtp-metropkr.online/') {
-        img.src = 'https://pokhok.biz/assets/images/METROTVPOKER.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/METROTVPOKER.gif';
     }else if (url2 === 'https://pola.rtp-nettvpkr.cyou/') {
-        img.src = 'https://pokhok.biz/assets/images/NETTV.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/NETTV.gif';
     }else if (url2 === 'https://pro.rtp-pkhk.biz/') {
-        img.src = 'https://pokhok.biz/assets/images/POKERHOKIBET88.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/POKERHOKIBET88.gif';
     }else if (url2 === 'https://pro.rtpyk-69.beauty/') {
-        img.src = 'https://pokhok.biz/assets/images/YUK69A.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/YUK69A.gif';
     }else if (url2 === 'https://t.ly/rtp-hoki777/') {
-        img.src = 'https://pokhok.biz/assets/images/HOKI.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/HOKI.gif';
     }else if (url2 === 'https://es.pola-metrowin88.site/') {
-        img.src = 'https://pokhok.biz/assets/images/METROWIN88.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/METROWIN88.gif';
     }else if (url2 === 'https://t.ly/rtp-squad777') {
-        img.src = 'https://pokhok.biz/assets/images/SQUAD777.gif';
+        img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SQUAD777.gif';
     }
     img.alt = 'Click Me';
     img.id = 'clickImage';
@@ -98,7 +98,7 @@ function addDynamicContent(url1, url2, url3) {
     extraImagesDiv.id = 'extraImages';
 
     const img1 = document.createElement('img');
-    img1.src = 'https://pokhok.biz/assets/images/tele.gif';
+    img1.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/tele.gif';
     img1.alt = 'image1';
     const link1 = document.createElement('a');
     link1.href = url1;
@@ -107,7 +107,7 @@ function addDynamicContent(url1, url2, url3) {
     extraImagesDiv.appendChild(link1);
 
     const img2 = document.createElement('img');
-    img2.src = 'https://pokhok.biz/assets/images/rtp.gif';
+    img2.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/rtp.gif';
     img2.alt = 'image2';
     const link2 = document.createElement('a');
     link2.href = url2;
@@ -117,7 +117,7 @@ function addDynamicContent(url1, url2, url3) {
 
     
     const img3 = document.createElement('img');
-    img3.src = 'https://pokhok.biz/assets/images/wa.gif';
+    img3.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/wa.gif';
     img3.alt = 'image3';
     const link3 = document.createElement('a');
     link3.href = url3;
@@ -154,27 +154,27 @@ function addDynamicContent(url1, url2, url3) {
     img.addEventListener('click', function () {
         const extraImages = document.getElementById('extraImages');
         if (img.src.includes('clickhere.gif') || img.src.includes('TVONE.gif') || img.src.includes('SCTV.gif') || img.src.includes('METROTVPOKER.gif') || img.src.includes('NETTV.gif') || img.src.includes('POKERHOKIBET88.gif') || img.src.includes('clickhere8.gif')|| img.src.includes('HOKI.gif')|| img.src.includes('YUK69A.gif')|| img.src.includes('METROWIN88.gif')) {
-            img.src = 'https://pokhok.biz/assets/images/close.gif';
+            img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/close.gif';
             extraImages.classList.add('show');
         } else {
             if (url2 === 'https://pola.rtp-tvonepkr.shop') {
-                img.src = 'https://pokhok.biz/assets/images/TVONE.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/TVONE.gif';
             } else if (url2 === 'https://es.rtp-sctvpkr.cam/') {
-                img.src = 'https://pokhok.biz/assets/images/SCTV.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SCTV.gif';
             }else if (url2 === 'https://id.rtp-metropkr.online/') {
-                img.src = 'https://pokhok.biz/assets/images/METROTVPOKER.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/METROTVPOKER.gif';
             }else if (url2 === 'https://pola.rtp-nettvpkr.cyou/') {
-                img.src = 'https://pokhok.biz/assets/images/NETTV.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/NETTV.gif';
             }else if (url2 === 'https://pro.rtp-pkhk.biz/') {
-                img.src = 'https://pokhok.biz/assets/images/POKERHOKIBET88.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/POKERHOKIBET88.gif';
             }else if (url2 === 'https://pro.rtpyk-69.beauty/') {
-                img.src = 'https://pokhok.biz/assets/images/YUK69A.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/YUK69A.gif';
             }else if (url2 === 'https://t.ly/rtp-hoki777/') {
-                img.src = 'https://pokhok.biz/assets/images/HOKI.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/HOKI.gif';
             }else if (url2 === 'https://es.pola-metrowin88.site/') {
-                img.src = 'https://pokhok.biz/assets/images/METROWIN88.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/METROWIN88.gif';
             }else if (url2 === 'https://t.ly/rtp-squad777') {
-                img.src = 'https://pokhok.biz/assets/images/SQUAD777.gif';
+                img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SQUAD777.gif';
             }
             extraImages.classList.remove('show');
         }
