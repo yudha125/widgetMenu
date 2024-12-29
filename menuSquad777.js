@@ -67,7 +67,7 @@
     menuDiv.classList.add('menu');
 
     const img = document.createElement('img');
-    img.src = 'https://pokhok.info/assets/images/SQUAD777.gif';
+    img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SQUAD777.gif';
     img.alt = 'Click Me';
     img.id = 'clickImage';
     menuDiv.appendChild(img);
@@ -77,7 +77,7 @@
     extraImagesDiv.id = 'extraImages';
 
     const img1 = document.createElement('img');
-    img1.src = 'https://pokhok.info/assets/images/tele.gif';
+    img1.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/tele.gif';
     img1.alt = 'image1';
     const link1 = document.createElement('a');
     link1.href = "https://t.me/Squad777official";
@@ -86,7 +86,7 @@
     extraImagesDiv.appendChild(link1);
 
     const img2 = document.createElement('img');
-    img2.src = 'https://pokhok.info/assets/images/rtp.gif';
+    img2.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/rtp.gif';
     img2.alt = 'image2';
     const link2 = document.createElement('a');
     link2.href = "https://t.ly/rtp-squad777";
@@ -95,7 +95,7 @@
     extraImagesDiv.appendChild(link2);
 
     const img3 = document.createElement('img');
-    img3.src = 'https://pokhok.info/assets/images/wa.gif';
+    img3.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/wa.gif';
     img3.alt = 'image3';
     const link3 = document.createElement('a');
     link3.href = "https://api.whatsapp.com/send/?phone=6287718192707&text&type=phone_number&app_absent=0";
@@ -108,11 +108,11 @@
 
     img.addEventListener('click', function () {
         const extraImages = document.getElementById('extraImages');
-        if (img.src.includes('https://pokhok.info/assets/images/SQUAD777.gif')) {
-            img.src = 'https://pokhok.info/assets/images/close.gif'; 
+        if (img.src.includes('https://github.com/yudha125/widgetMenu/blob/main/images/SQUAD777.gif')) {
+            img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/close.gif'; 
             extraImages.classList.add('show'); 
         } else {
-            img.src = 'https://pokhok.info/assets/images/SQUAD777.gif'; 
+            img.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SQUAD777.gif'; 
             extraImages.classList.remove('show'); 
         }
     });
