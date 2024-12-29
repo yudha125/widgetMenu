@@ -64,7 +64,7 @@
     menuDiv.classList.add('menu-download');
 
     const imgA = document.createElement('img');
-    imgA.src = 'https://pokhok.info/assets/images/SAVE.gif';
+    imgA.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/SAVE.gif';
     imgA.alt = 'Click Me';
     imgA.id = 'clickImage';
     menuDiv.appendChild(imgA);
@@ -75,7 +75,7 @@
 
     // Gambar pertama
     const img1 = document.createElement('img');
-    img1.src = 'https://pokhok.info/assets/images/FORANDROID.jpg';
+    img1.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/FORANDROID.jpg';
     img1.alt = 'image1';
     const link1 = document.createElement('a');
     link1.href = "https://www.gameiosapk.com/android.php";
@@ -85,7 +85,7 @@
 
     // Gambar kedua
     const img2 = document.createElement('img');
-    img2.src = 'https://pokhok.info/assets/images/FOR_IOS.jpg';
+    img2.src = 'https://github.com/yudha125/widgetMenu/blob/main/images/FOR_IOS.jpg';
     img2.alt = 'image2';
     const link2 = document.createElement('a');
     link2.href = "https://www.gameiosapk.com/iphone.php";
