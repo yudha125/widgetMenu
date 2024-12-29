@@ -145,7 +145,7 @@ function addDynamicContent(url1, url2, url3) {
         url2 === 'https://pola.rtp-nettvpkr.cyou/' ||
         url2 === 'https://pro.rtp-pkhk.biz/'
     ) {
-        loadExternalScript('https://pokhok.biz/assets/menuDownload.js', function (){
+        loadExternalScript('https://github.com/yudha125/widgetMenu/blob/main/menuDownload.js', function (){
         console.log('Script external berhasil dimuat!');
         });
     };
